@@ -9,7 +9,8 @@ Aplikasi ini berisi data jumlah covid-19 di setiap provinsi di Indonesia
 
 
 
-![Screenshot_20210510-195833_One UI Home](https://user-images.githubusercontent.com/59316805/117652554-8304d780-b1bd-11eb-90f5-21e86e99c4e1.jpg)
+![masker](https://user-images.githubusercontent.com/59316805/120094458-ada5d880-c14a-11eb-8242-bf8ec854ed8e.png)
+
 
 
 Download Apk : https://drive.google.com/folderview?id=1OW7QbkEguDIINbQ355wti7f_9nRVJCVk
