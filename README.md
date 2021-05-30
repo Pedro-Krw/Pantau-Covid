@@ -2,12 +2,7 @@
 
 
 
-Aplikasi ini berisi data jumlah covid-19 di setiap provinsi di Indonesia
-
-
-
-
-
+Aplikasi ini berisi data jumlah covid-19 di setiap provinsi di Indonesia dan data covid-19 Global untuk setiap negara
 
 
 
