@@ -20,6 +20,4 @@ For more api : https://github.com/farizdotid/DAFTAR-API-LOKAL-INDONESIA#kesehata
 ![Untitled — May 30, 10 27 55 AM](https://user-images.githubusercontent.com/59316805/120094323-e85b4100-c149-11eb-900c-49ca3bc2d202.png)
 
 
-![Untitled — May 30, 10 27 55 AM](https://user-images.githubusercontent.com/59316805/120094396-41c37000-c14a-11eb-804d-36a295024c20.png)
-
 
