@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp"
+    android:layout_marginBottom="5dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/de"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif"
+        android:textSize="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Lorem Ipsum"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+    <TextView
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginBottom="150dp"
+        android:layout_marginTop="16.3dp"
+        android:textAlignment="center"
+        android:id="@+id/total"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Jumlah Kasus"
+        app:layout_constraintLeft_toRightOf="@id/biasa"
+        app:layout_constraintTop_toBottomOf="@id/textView"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-thin"
+        android:textAlignment="center"
+        android:id="@+id/biasa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        tools:text="Jumlah Kasus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"/>
+
+
+<!--Batas-->
+    <TextView
+        android:layout_marginTop="2dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginBottom="150dp"
+        android:textAlignment="center"
+        android:id="@+id/sembuh"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Jumlah Kasus"
+        android:layout_marginLeft="15dp"
+        app:layout_constraintLeft_toRightOf="@id/biasa"
+        app:layout_constraintTop_toBottomOf="@id/total"/>
+
+    <TextView
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-thin"
+        android:textAlignment="center"
+        android:id="@+id/biasa1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        tools:text="Jumlah Sembuh"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/biasa"/>
+
+    <!--Batas-->
+    <TextView
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginBottom="150dp"
+        android:textAlignment="center"
+        android:id="@+id/cry"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Jumlah Kasus"
+        app:layout_constraintLeft_toRightOf="@id/biasa2"
+        app:layout_constraintTop_toBottomOf="@id/sembuh"/>
+
+    <TextView
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-thin"
+        android:textAlignment="center"
+        android:id="@+id/biasa2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        tools:text="Jumlah Meninggal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/biasa1"/>
+
+
+    <!--Batas-->
+    <TextView
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginBottom="150dp"
+        android:textAlignment="center"
+        android:id="@+id/rawat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Jumlah Kasus"
+        app:layout_constraintLeft_toRightOf="@id/biasa3"
+        app:layout_constraintTop_toBottomOf="@id/cry"/>
+
+    <TextView
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-thin"
+        android:textAlignment="center"
+        android:id="@+id/biasa3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        tools:text="Jumlah Meninggal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/biasa2"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

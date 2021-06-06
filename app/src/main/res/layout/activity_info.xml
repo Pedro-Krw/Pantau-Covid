@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    tools:context=".Activity.InfoActivity">
+
+    <Button
+        android:onClick="git"
+        android:id="@+id/back"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="40dp"
+        android:fontFamily="sans-serif-light"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/arrow_back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/home"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Pantau Covid-19"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+        android:id="@+id/home2"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Aplikasi ini di buat untuk memantau perkembagan"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:textColor="@color/black"
+        android:id="@+id/home3"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Covid-19 di Indonesia untuk setiap provinsi"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:textColor="@color/black"
+        android:id="@+id/home4"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="dan juga teradapat data Global Covid-19 untuk"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:textColor="@color/black"
+        android:id="@+id/home5"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Memantau data setiap Negara"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+z
+    <LinearLayout
+        android:id="@+id/linear"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/home3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Cratead By "/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pedro Korwa"/>
+
+
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Biak Mobile Developers"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Api From"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kawalcorona.com"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="api.covid19api.com"/>
+
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hubungi Kami"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="biakmobiledevelopers@gmail.com"/>
+        <TextView
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="instagram: biakmobiledevelopers"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Github"/>
+
+        <TextView
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://github.com/Pedro-korwa"/>
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/github"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://github.com/Biak-Mobile"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Picture Content"/>
+
+        <TextView
+            android:id="@+id/unsplas"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unsplash.com"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/bm"
+        android:layout_marginBottom="300dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bmlogo"
+        app:layout_constraintTop_toBottomOf="@id/linear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/terimakasih"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biak Mobile Developers"
+        app:layout_constraintTop_toBottomOf="@id/bm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+    <TextView
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Terimakasih"
+        app:layout_constraintTop_toBottomOf="@id/terimakasih"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

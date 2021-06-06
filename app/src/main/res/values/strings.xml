@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Pantau Covid-19</string>
+    <string name="title_activity_info">Pantau Covid-19</string>
+    <string name="large_text">
+        "COVID INFO.\n\n"
+
+        "APLIKASI PEMANTAU PERKEMBANGAN COVID-19.\n\n"
+
+        "Di kembangkan oleh Biak Biak Mobile Developers""
+
+        "Created By :"
+        "Pedro"" Korwa"
+        "BiakMobileDevelopers@2021\n"
+        "Picture Content By :"
+        "Unsplash.com"
+        "Pixabay.com"
+        "freepik.com\n"
+        "Api From :"
+        "kawalcorona.com"
+        "data.covid19.go.id"
+
+
+
+
+        "Contact Us :"
+        "biakmobiledevelopers@gmail.com"
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>

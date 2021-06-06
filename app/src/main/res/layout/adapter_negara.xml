@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+
+    <ImageView
+        android:id="@+id/imageViewNegaraN"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/de"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif"
+        android:textSize="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:id="@+id/textViewnegara"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Lorem Ipsum"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+
+
+        <TextView
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/posN"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TotalConfirmed"
+            android:textColor="@color/white"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/positifnegara"
+            app:layout_constraintTop_toBottomOf="@id/textViewnegara"/>
+
+        <TextView
+            android:layout_marginRight="110dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/positifnegara"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah"
+            android:textColor="@color/white"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textViewnegara"
+            app:layout_constraintLeft_toRightOf="@id/posN"/>
+
+
+    <TextView
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/Confirmed"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TotalConfirmed"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/positifnegara"
+        app:layout_constraintTop_toBottomOf="@id/textViewnegara"/>
+
+
+<!--BATAS-->
+
+    <TextView
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/sembuhN"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TotalRecovered"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/positifnegara"
+        app:layout_constraintTop_toBottomOf="@id/posN"/>
+
+    <TextView
+        android:layout_marginRight="110dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/sembuhnegara"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Jumlah"
+        android:textColor="@color/white"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/positifnegara"
+        app:layout_constraintLeft_toRightOf="@id/posN"/>
+
+<!--BATAS-->
+
+
+    <TextView
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/meniggal"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TotalDeaths"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/positifnegara"
+        app:layout_constraintTop_toBottomOf="@id/sembuhnegara"/>
+
+    <TextView
+        android:layout_marginRight="110dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/meniggalNegara"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Jumlah"
+        android:textColor="@color/white"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sembuhnegara"
+        app:layout_constraintLeft_toRightOf="@id/posN"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
